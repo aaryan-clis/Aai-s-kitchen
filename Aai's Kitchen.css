@@ -1,0 +1,85 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+body{
+    background-color: white;
+}
+:root{
+    --navbar-height:59px
+}
+img{
+    width: 212px;
+    margin-right: 39px;
+
+}
+#navbar{
+    display: flex;
+    background-color: black;
+}
+#navbar ul {
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 45px;
+    
+}
+#navbar ul li a{
+    padding: 3px 22px;
+    border-radius: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+#navbar ul li a:hover{
+    background-color: orange;
+    display: block;
+    
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 1px bisque ,1px 2px 25px blue , 2px 3px 2px lightcyan  ;
+    margin-top: 15px;
+    font-size: 40px;
+}
+p{
+    color: cadetblue;
+    margin-top: 15px;
+    font-size: 25px;
+}
+form{
+    background-color: rgba(0,0, 0, 0.9);
+    padding: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+label{
+    color: orange;
+}
+form .box{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+}
+button{
+    margin-left: 580px;
+    height: 70px;
+    width: 24%;
+}
+h2{
+    color: cadetblue;
+    margin-top: 15px;
+    font-size: 25px;
+}
